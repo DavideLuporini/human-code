@@ -1,0 +1,30 @@
+Mi trovo davanti al tavolo e agli invitato:
+
+1) controllo la lista degli invitati
+
+ci sono due persone in piedi?
+
+    Si 
+        2) Ci sono due sedie libere? 
+                               
+                      2.1.a)faccio sedere due persone
+                
+                no)     2.2.a) aggiungo due sedie
+                        2.2.b) faccio sedere la persona
+                        2.2.c) torno a 2.1.a.a
+
+                        Vai a controlla la lista degli invitati. 
+
+
+    NO      C'è una persona in piedi?
+
+                    si)      C'è una sedia libera?
+
+                        si) - Faccio sedere la persona
+                            - vai a controlla lista degli invitati
+
+                        no) - aggiungo una sedia 
+                            - faccio sedere
+
+                    no)     Fine
+                
